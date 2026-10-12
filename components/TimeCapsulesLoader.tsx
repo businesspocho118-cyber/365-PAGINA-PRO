@@ -155,13 +155,6 @@ export function TimeCapsulesLoader({ onComplete }: TimeCapsulesLoaderProps) {
     }
   };
 
-  const handleSimulateSeal = () => {
-    localStorage.setItem(CAPSULES_STORAGE_KEY, "true");
-    setShowTriumph(true);
-    setTimeout(() => {
-      onComplete();
-    }, 1200);
-  };
 
   const handleSendTestEmail = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -310,14 +303,6 @@ export function TimeCapsulesLoader({ onComplete }: TimeCapsulesLoaderProps) {
               onClick={() => setShowTestModal(true)}
             >
               🧪 Probar envío de correo inmediato
-            </button>
-
-            <button
-              type="button"
-              className={styles.simulateBtnTrigger}
-              onClick={handleSimulateSeal}
-            >
-              ⚡ Simular que ya se enviaron las 3 cápsulas y entrar (Test)
             </button>
           </div>
         </div>
