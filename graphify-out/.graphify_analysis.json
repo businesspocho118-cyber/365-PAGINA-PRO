@@ -1,0 +1,379 @@
+{
+  "communities": {
+    "0": [
+      "components_secretgamemodal",
+      "components_secretgamemodal_gamebyid",
+      "components_secretgamemodal_keypad",
+      "components_secretgamemodal_logicoptions",
+      "components_secretgamemodal_logicorder",
+      "components_secretgamemodal_logicordergame",
+      "components_secretgamemodal_logicordergame_choose",
+      "components_secretgamemodal_numericmemorygame",
+      "components_secretgamemodal_numericmemorygame_pressnumber",
+      "components_secretgamemodal_numericsequence",
+      "components_secretgamemodal_secretgamemodal",
+      "components_secretgamemodal_secretgamemodalprops",
+      "components_secretgamemodal_sparkpositions",
+      "components_secretgamemodal_trustpathgame",
+      "components_secretgamemodal_trustpathgame_connect",
+      "components_secretgamemodal_trustpoints",
+      "components_secretgamemodal_victorypanel",
+      "components_secretkeysystem",
+      "components_secretkeysystem_emptyprogress",
+      "components_secretkeysystem_finalreward",
+      "components_secretkeysystem_normalreward",
+      "components_secretkeysystem_readprogress",
+      "components_secretkeysystem_secretkeyprogress",
+      "components_secretkeysystem_secretkeysystem",
+      "components_secretkeysystem_secretkeysystem_submitkey",
+      "lib_secret_keys",
+      "lib_secret_keys_finalsecret",
+      "lib_secret_keys_importantsecretkey",
+      "lib_secret_keys_importantsecretkeys",
+      "lib_secret_keys_importantsecretkeysbyvalue",
+      "lib_secret_keys_normalizesecretentry",
+      "lib_secret_keys_normalsecretanimation",
+      "lib_secret_keys_normalsecretkey",
+      "lib_secret_keys_normalsecretkeys",
+      "lib_secret_keys_secretgameid"
+    ],
+    "1": [
+      "components_loader365",
+      "components_loader365_loader365",
+      "components_loader365_loader365props",
+      "components_loader365_targetdigits",
+      "components_scrollchoreography",
+      "components_scrollchoreography_scrollchoreography",
+      "components_scrollchoreography_scrollchoreographyprops",
+      "components_secretexperience",
+      "components_secretexperience_emptyprogress",
+      "components_secretexperience_medals",
+      "components_secretexperience_progress",
+      "components_secretexperience_redeemables",
+      "components_smoothscrollcontroller",
+      "components_smoothscrollcontroller_smoothscrollcontroller",
+      "components_smoothscrollcontroller_smoothscrollcontrollerprops",
+      "components_threenebula",
+      "components_threenebula_threenebula",
+      "components_threenebula_threenebula_setup",
+      "components_threenebula_threenebula_setup_onpointermove",
+      "components_threenebula_threenebula_setup_onscroll",
+      "components_threenebula_threenebula_setup_render",
+      "components_threenebula_threenebula_setup_resize"
+    ],
+    "2": [
+      "ref_dom",
+      "ref_dom_iterable",
+      "ref_es2022",
+      "tsconfig_compileroptions",
+      "tsconfig_compileroptions_allowjs",
+      "tsconfig_compileroptions_esmoduleinterop",
+      "tsconfig_compileroptions_incremental",
+      "tsconfig_compileroptions_isolatedmodules",
+      "tsconfig_compileroptions_jsx",
+      "tsconfig_compileroptions_lib",
+      "tsconfig_compileroptions_module",
+      "tsconfig_compileroptions_moduleresolution",
+      "tsconfig_compileroptions_noemit",
+      "tsconfig_compileroptions_paths",
+      "tsconfig_compileroptions_plugins",
+      "tsconfig_compileroptions_resolvejsonmodule",
+      "tsconfig_compileroptions_skiplibcheck",
+      "tsconfig_compileroptions_strict",
+      "tsconfig_compileroptions_target"
+    ],
+    "3": [
+      "gsap",
+      "gsap_react",
+      "lenis",
+      "next",
+      "package_dependencies",
+      "package_dependencies_gsap",
+      "package_dependencies_gsap_react",
+      "package_dependencies_lenis",
+      "package_dependencies_next",
+      "package_dependencies_react",
+      "package_dependencies_react_dom",
+      "package_dependencies_three",
+      "package_json_three",
+      "react",
+      "react_dom"
+    ],
+    "4": [
+      "app_api_access_route",
+      "app_api_access_route_post",
+      "app_api_answer_route",
+      "app_api_answer_route_post",
+      "lib_answer_vault",
+      "lib_answer_vault_acceptedanswersbyphase",
+      "lib_answer_vault_isacceptedaccesscode",
+      "lib_answer_vault_isacceptedphaseanswer",
+      "lib_answer_vault_isfirstphaseaccesscode",
+      "lib_normalize",
+      "lib_normalize_normalizeanswer",
+      "lib_phases",
+      "lib_phases_phase",
+      "lib_phases_phases"
+    ],
+    "5": [
+      "package_devdependencies",
+      "package_devdependencies_tailwindcss",
+      "package_devdependencies_types_node",
+      "package_devdependencies_types_react",
+      "package_devdependencies_types_react_dom",
+      "package_devdependencies_types_three",
+      "package_devdependencies_typescript",
+      "tailwindcss",
+      "types_node",
+      "types_react",
+      "types_react_dom",
+      "types_three",
+      "typescript"
+    ],
+    "6": [
+      "app_page",
+      "app_page_home",
+      "components_secretexperience_clampphaseindex",
+      "components_secretexperience_readprogress",
+      "components_secretexperience_secretexperience",
+      "components_secretexperience_secretexperience_choosephase",
+      "components_secretexperience_secretexperience_onkeydown",
+      "components_secretexperience_secretexperience_scrollredeemables",
+      "components_secretexperience_secretexperience_submitaccess",
+      "components_secretexperience_secretexperience_submitphaseanswer",
+      "components_secretexperience_secretexperience_tapheronumber",
+      "components_secretexperience_writeprogress"
+    ],
+    "7": [
+      "package",
+      "package_name",
+      "package_private",
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_lint",
+      "package_type",
+      "package_version"
+    ],
+    "8": [
+      "ref_next_dev_types_ts",
+      "ref_next_env_d_ts",
+      "ref_next_types_ts",
+      "ref_node_modules",
+      "ref_ts",
+      "ref_tsx",
+      "tsconfig",
+      "tsconfig_exclude",
+      "tsconfig_include"
+    ],
+    "9": [
+      "agents_skills_remotion_best_practices_rules_assets_charts_bar_chart",
+      "agents_skills_remotion_best_practices_rules_assets_charts_bar_chart_bar",
+      "agents_skills_remotion_best_practices_rules_assets_charts_bar_chart_fontfamily",
+      "agents_skills_remotion_best_practices_rules_assets_charts_bar_chart_myanimation",
+      "agents_skills_remotion_best_practices_rules_assets_charts_bar_chart_title",
+      "agents_skills_remotion_best_practices_rules_assets_charts_bar_chart_xaxis",
+      "agents_skills_remotion_best_practices_rules_assets_charts_bar_chart_yaxis"
+    ],
+    "10": [
+      "agents_skills_remotion_best_practices_rules_assets_text_animations_typewriter",
+      "agents_skills_remotion_best_practices_rules_assets_text_animations_typewriter_cursor",
+      "agents_skills_remotion_best_practices_rules_assets_text_animations_typewriter_gettypedtext",
+      "agents_skills_remotion_best_practices_rules_assets_text_animations_typewriter_myanimation"
+    ],
+    "11": [
+      "agents_skills_remotion_best_practices_rules_assets_text_animations_word_highlight",
+      "agents_skills_remotion_best_practices_rules_assets_text_animations_word_highlight_fontfamily",
+      "agents_skills_remotion_best_practices_rules_assets_text_animations_word_highlight_highlight",
+      "agents_skills_remotion_best_practices_rules_assets_text_animations_word_highlight_myanimation"
+    ],
+    "12": [
+      "app_layout",
+      "app_layout_metadata",
+      "app_layout_rootlayout",
+      "app_layout_viewport"
+    ],
+    "13": [
+      "components_secretgamemodal_celebrationgame",
+      "components_secretgamemodal_celebrationgame_hitspark",
+      "components_secretgamemodal_celebrationgame_retry"
+    ],
+    "14": [
+      "app_fase_1_resuelta_page",
+      "app_fase_1_resuelta_page_firstphasesolvedpage"
+    ],
+    "15": [
+      "next_config",
+      "next_config_nextconfig"
+    ],
+    "16": [
+      "next_env_d",
+      "next_env_d_rationale_5"
+    ]
+  },
+  "cohesion": {
+    "0": 0.07899159663865546,
+    "1": 0.10822510822510822,
+    "2": 0.10526315789473684,
+    "3": 0.13333333333333333,
+    "4": 0.26373626373626374,
+    "5": 0.15384615384615385,
+    "6": 0.22727272727272727,
+    "7": 0.2222222222222222,
+    "8": 0.2222222222222222,
+    "9": 0.2857142857142857,
+    "10": 0.6666666666666666,
+    "11": 0.5,
+    "12": 0.5,
+    "13": 0.6666666666666666,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0
+  },
+  "gods": [
+    {
+      "id": "tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 16
+    },
+    {
+      "id": "components_secretexperience_secretexperience",
+      "label": "SecretExperience()",
+      "degree": 10
+    },
+    {
+      "id": "tsconfig_include",
+      "label": "include",
+      "degree": 6
+    },
+    {
+      "id": "components_threenebula_threenebula_setup",
+      "label": "setup()",
+      "degree": 5
+    },
+    {
+      "id": "lib_normalize_normalizeanswer",
+      "label": "normalizeAnswer()",
+      "degree": 5
+    },
+    {
+      "id": "components_secretexperience_clampphaseindex",
+      "label": "clampPhaseIndex()",
+      "degree": 5
+    },
+    {
+      "id": "components_secretkeysystem_secretkeysystem",
+      "label": "SecretKeySystem()",
+      "degree": 4
+    },
+    {
+      "id": "lib_answer_vault_isacceptedaccesscode",
+      "label": "isAcceptedAccessCode()",
+      "degree": 4
+    },
+    {
+      "id": "lib_answer_vault_isacceptedphaseanswer",
+      "label": "isAcceptedPhaseAnswer()",
+      "degree": 4
+    },
+    {
+      "id": "lib_answer_vault_isfirstphaseaccesscode",
+      "label": "isFirstPhaseAccessCode()",
+      "degree": 4
+    }
+  ],
+  "surprises": [
+    {
+      "source": "submitKey()",
+      "target": "normalizeSecretEntry()",
+      "source_files": [
+        "components/SecretKeySystem.tsx",
+        "lib/secret-keys.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "POST()",
+      "target": "isAcceptedAccessCode()",
+      "source_files": [
+        "app/api/access/route.ts",
+        "lib/answer-vault.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "POST()",
+      "target": "isFirstPhaseAccessCode()",
+      "source_files": [
+        "app/api/access/route.ts",
+        "lib/answer-vault.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "POST()",
+      "target": "isAcceptedPhaseAnswer()",
+      "source_files": [
+        "app/api/answer/route.ts",
+        "lib/answer-vault.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "isAcceptedAccessCode()",
+      "target": "normalizeAnswer()",
+      "source_files": [
+        "lib/answer-vault.ts",
+        "lib/normalize.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `phases` connect `Community 4` to `Community 1`?",
+      "why": "High betweenness centrality (0.026) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `dependencies` connect `Community 3` to `Community 7`?",
+      "why": "High betweenness centrality (0.026) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `SecretGameModalProps`, `SecretKeyProgress`, `NormalSecretAnimation` to the rest of the system?",
+      "why": "68 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.07899159663865546 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 1` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.10822510822510822 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 2` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 3` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected."
+    }
+  ]
+}
