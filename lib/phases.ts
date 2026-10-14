@@ -19,6 +19,8 @@ export type Phase = {
   unsolvedDocSrc?: string;
   solutionDocSrc?: string;
   solutionVideoSrc?: string;
+  readingDocSrc?: string;
+  visualDocSrc?: string;
 };
 
 export const SECRET_KEY_UNLOCK_PHASE_ID = "day-275";
@@ -222,29 +224,31 @@ export const phases: Phase[] = [
   },
   {
     id: "day-365",
-    title: "El Gran Viaje Final",
+    title: "Feliz Aniversario",
     dayReference: 365,
     riddle:
-      "Llegamos al final del libro, pero este final es en realidad el inicio de un viaje soñado. Una fecha prometida que marca nuestro próximo gran destino juntos.",
+      "Llegamos a la última página de este año inolvidable. Una palabra que resume cada momento compartido y conmemora nuestro amor.",
     hints: [
-      "Una fecha exacta marcada en el calendario para viajar juntos.",
-      "Formato de día, mes y año: DD/MM/AAAA.",
-      "El día en que el sueño del viaje se hace realidad en 2026.",
+      "Lo que celebramos con orgullo al completar 365 días juntos.",
+      "La fecha y el motivo más especial de nuestra historia.",
+      "Una sola palabra en mayúsculas: empieza con A.",
     ],
     reward: {
-      title: "Pasaporte al Destino Soñado",
+      title: "Celebración de Aniversario",
       description:
-        "Se completa el archivo entero y se abre el boleto hacia la gran aventura final.",
+        "Se completa el archivo entero, se celebra nuestro primer año y se desbloquea la recompensa suprema: el libro completo de los 365 días.",
     },
     recap:
-      "El final de los 365 días no es una despedida: es la partida del mejor viaje juntos.",
+      "365 días juntos: un año entero de memorias, risas y complicidad. Feliz Aniversario.",
     easterEggs: ["El 365 se convierte en llave final después de la última fase."],
     medal: {
-      title: "Medalla del Viaje Final",
-      message: "Todas las fases superadas: destino alcanzado y viaje asegurado.",
+      title: "Medalla de Aniversario",
+      message: "Todas las fases superadas: 365 días de amor sellados en el archivo.",
       imageSrc: "/365-assets/medals/medal-8.png",
     },
     unsolvedDocSrc: "/365-assets/phase-docs/fase-8-sin-solucion.pdf",
     solutionDocSrc: "/365-assets/phase-docs/fase-8-con-solucion.pdf",
+    readingDocSrc: "/365-assets/phase-docs/fase-8-lectura.pdf",
+    visualDocSrc: "/365-assets/phase-docs/fase-8-visual.pdf",
   },
 ];

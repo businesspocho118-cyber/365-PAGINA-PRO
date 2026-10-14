@@ -166,6 +166,36 @@ export function PhaseMedalModal({ phase, phaseNumber, isCanjeableUsed = false, o
               </div>
             )
           ) : null}
+          {phaseNumber === 8 ? (
+            <div className={styles.finalBookReward}>
+              <div className={styles.finalBookHeader}>
+                <span className={styles.finalBookBadge}>👑 Recompensa Suprema Desbloqueada</span>
+                <h4 className={styles.finalBookTitle}>El Libro Completo de los 365 Días</h4>
+                <p className={styles.finalBookText}>
+                  ¡Completaste todo el recorrido de las 8 fases! El libro entero ya es tuyo en sus dos formatos:
+                </p>
+              </div>
+              <div className={styles.finalBookLinks}>
+                <a
+                  className={styles.finalBookBtn}
+                  href="/365-assets/books/365-libro-completo-visual.pdf"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  🎨 Libro Visual Completo (PDF)
+                </a>
+                <a
+                  className={styles.finalBookBtn}
+                  href="/365-assets/books/365-libro-completo-lectura.pdf"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  📖 Libro Lectura Completo (PDF)
+                </a>
+              </div>
+            </div>
+          ) : null}
+
           <button className={styles.action} onClick={onClose} type="button">
             {isCanjeableUsed ? "Continuar" : "Guardar medalla"}
           </button>

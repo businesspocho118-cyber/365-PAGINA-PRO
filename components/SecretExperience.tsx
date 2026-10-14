@@ -1110,6 +1110,68 @@ export function SecretExperience() {
                 );
               })}
             </div>
+
+            {/* RECOMPENSA DEFINITIVA: EL LIBRO COMPLETO DE LOS 365 DÍAS */}
+            <div className="hall-grand-reward" data-scroll-reveal>
+              <div className="hall-grand-reward-header">
+                <span className="hall-grand-reward-kicker">✦ RECOMPENSA DE HONOR DEFINITIVA ✦</span>
+                <h3>El Libro Completo de los 365 Días</h3>
+                <p>
+                  Has descifrado cada secreto y recorrido las 8 fases de nuestra historia. La bóveda final está abierta y aquí puedes guardar y descargar el libro completo en sus dos ediciones oficiales:
+                </p>
+              </div>
+
+              <div className="hall-books-grid">
+                <div className="hall-book-card">
+                  <div className="hall-book-top">
+                    <div className="hall-book-thumb-wrap">
+                      <img
+                        src="/365-assets/cover/portada-libro.png"
+                        alt="365 Libro Completo Edición Visual"
+                      />
+                    </div>
+                    <div className="hall-book-info">
+                      <span className="hall-book-badge">🎨 Edición Visual Ilustrada</span>
+                      <h4>365 · El Libro Visual Completo</h4>
+                      <p>
+                        El libro con diseño íntegro a todo color: 365 días ilustrados con cada fotografía, dedicatoria original y detalle visual de nuestro año.
+                      </p>
+                    </div>
+                  </div>
+                  <a
+                    className="button-download-book"
+                    href="/365-assets/books/365-libro-completo-visual.pdf"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <span>🎨 Abrir / Descargar Edición Visual (PDF)</span>
+                  </a>
+                </div>
+
+                <div className="hall-book-card">
+                  <div className="hall-book-top">
+                    <div className="hall-book-thumb-wrap">
+                      <span className="hall-book-icon-reading" aria-hidden="true">📖</span>
+                    </div>
+                    <div className="hall-book-info">
+                      <span className="hall-book-badge">📘 Edición de Lectura</span>
+                      <h4>365 · El Libro de Lectura Completo</h4>
+                      <p>
+                        Edición optimizada para una lectura íntima y fluida: contiene todos los textos, cartas y mensajes día por día con total nitidez.
+                      </p>
+                    </div>
+                  </div>
+                  <a
+                    className="button-download-book"
+                    href="/365-assets/books/365-libro-completo-lectura.pdf"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <span>📖 Abrir / Descargar Edición Lectura (PDF)</span>
+                  </a>
+                </div>
+              </div>
+            </div>
           </section>
         ) : null}
 
@@ -1270,6 +1332,31 @@ export function SecretExperience() {
                         ▶️ Iniciar fase (Abrir documento)
                       </button>
                     )}
+
+                    {isPhaseStarted && (activePhase.readingDocSrc || activePhase.visualDocSrc) ? (
+                      <div className="phase-extra-docs">
+                        {activePhase.readingDocSrc ? (
+                          <a
+                            className="button-phase-extra"
+                            href={activePhase.readingDocSrc}
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            📖 Versión Lectura (PDF)
+                          </a>
+                        ) : null}
+                        {activePhase.visualDocSrc ? (
+                          <a
+                            className="button-phase-extra"
+                            href={activePhase.visualDocSrc}
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            🎨 Versión Visual (PDF)
+                          </a>
+                        ) : null}
+                      </div>
+                    ) : null}
                   </div>
                 ) : null}
               </div>
@@ -1485,11 +1572,73 @@ export function SecretExperience() {
                               </div>
                             )
                           ) : null}
+
+                          {/* Documentos de lectura y visual si existen */}
+                          {phase.readingDocSrc || phase.visualDocSrc ? (
+                            <div className="reward-phase-docs">
+                              {phase.readingDocSrc ? (
+                                <a
+                                  className="button-phase-reward-doc"
+                                  href={phase.readingDocSrc}
+                                  rel="noopener noreferrer"
+                                  target="_blank"
+                                >
+                                  📖 Ver fase en formato lectura (PDF)
+                                </a>
+                              ) : null}
+                              {phase.visualDocSrc ? (
+                                <a
+                                  className="button-phase-reward-doc"
+                                  href={phase.visualDocSrc}
+                                  rel="noopener noreferrer"
+                                  target="_blank"
+                                >
+                                  🎨 Ver fase en formato visual (PDF)
+                                </a>
+                              ) : null}
+                            </div>
+                          ) : null}
                         </div>
                       </div>
                     </article>
                   );
                 })}
+
+                {allSolved ? (
+                  <div className="reward-grand-finale" data-scroll-reveal>
+                    <div className="grand-finale-badge">👑 RECOMPENSA SUPREMA · LIBRO COMPLETO</div>
+                    <h3>El Libro Completo de los 365 Días</h3>
+                    <p>
+                      Completaste las 8 fases de esta gran historia. Como recompensa suprema, aquí tienes acceso completo a las dos ediciones definitivas del libro:
+                    </p>
+                    <div className="grand-finale-actions">
+                      <a
+                        className="button-grand-book button-grand-visual"
+                        href="/365-assets/books/365-libro-completo-visual.pdf"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <span className="book-btn-icon">🎨</span>
+                        <span className="book-btn-text">
+                          <strong>Libro Completo · Edición Visual</strong>
+                          <small>365 páginas a todo color (PDF)</small>
+                        </span>
+                      </a>
+                      <a
+                        className="button-grand-book button-grand-reading"
+                        href="/365-assets/books/365-libro-completo-lectura.pdf"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
+                        <span className="book-btn-icon">📖</span>
+                        <span className="book-btn-text">
+                          <strong>Libro Completo · Edición Lectura</strong>
+                          <small>365 días de cartas y reflexiones (PDF)</small>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                ) : null}
               </div>
             ) : (
               <p className="empty-line" data-scroll-reveal>

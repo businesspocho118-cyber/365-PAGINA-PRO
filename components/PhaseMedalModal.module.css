@@ -271,6 +271,72 @@
   line-height: 1.4;
 }
 
+.finalBookReward {
+  display: grid;
+  gap: 12px;
+  padding: 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 214, 165, 0.4);
+  background: rgba(255, 214, 165, 0.08);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  text-align: left;
+}
+
+.finalBookHeader {
+  display: grid;
+  gap: 4px;
+}
+
+.finalBookBadge {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ffd6a5;
+  font-weight: 700;
+}
+
+.finalBookTitle {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 1.25rem;
+  color: #fff7ff;
+}
+
+.finalBookText {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.finalBookLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.finalBookBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #1a0826;
+  background: linear-gradient(135deg, #ffd6a5, #ffb067);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.finalBookBtn:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
+
 .action {
   justify-self: start;
   min-height: 50px;

@@ -9,7 +9,7 @@ const acceptedAnswersByPhase = new Map<string, string[]>([
   ["day-230", ["Cumpleaños", "Cumpleanos"]],
   ["day-275", ["H2O", "H 2 O", "H20", "H 2 0"]],
   ["day-320", ["MANIFESTAR", "Manifestar"]],
-  ["day-365", ["19/10/2026", "19-10-2026", "19102026", "19 / 10 / 2026", "19.10.2026", "19 10 2026"]],
+  ["day-365", ["ANIVERSARIO", "Aniversario"]],
 ]);
 
 export function hasRequiredPrefix(input: string): boolean {

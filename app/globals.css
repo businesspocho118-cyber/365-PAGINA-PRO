@@ -3287,3 +3287,340 @@ a:focus-visible {
   }
 }
 
+/* ========================================================
+   RECOMPENSA DEFINITIVA DEL LIBRO COMPLETO (Hall & Rewards)
+   ======================================================== */
+.hall-grand-reward {
+  margin-top: 10px;
+  padding: clamp(24px, 3.5vw, 42px);
+  border: 1px solid rgba(255, 214, 165, 0.45);
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(255, 214, 165, 0.16), transparent 60%),
+    linear-gradient(170deg, rgba(38, 12, 54, 0.9), rgba(18, 6, 28, 0.96));
+  box-shadow:
+    0 16px 50px rgba(0, 0, 0, 0.5),
+    0 0 40px rgba(255, 214, 165, 0.15);
+  display: grid;
+  gap: 26px;
+}
+
+.hall-grand-reward-header {
+  text-align: center;
+  display: grid;
+  gap: 8px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.hall-grand-reward-kicker {
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #ffd6a5;
+  font-weight: 700;
+  text-shadow: 0 0 16px rgba(255, 214, 165, 0.5);
+}
+
+.hall-grand-reward-header h3 {
+  font-family: var(--display);
+  font-size: clamp(2rem, 4.5vw, 3.2rem);
+  letter-spacing: -0.03em;
+  line-height: 1;
+  color: #fff7ff;
+  margin: 0;
+}
+
+.hall-grand-reward-header p {
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.hall-books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.hall-book-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+  border-radius: 22px;
+  background: rgba(14, 4, 24, 0.85);
+  border: 1px solid rgba(255, 214, 165, 0.3);
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+  gap: 20px;
+}
+
+.hall-book-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 214, 165, 0.7);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.45), 0 0 30px rgba(255, 214, 165, 0.15);
+}
+
+.hall-book-top {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.hall-book-thumb-wrap {
+  width: 90px;
+  height: 120px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 214, 165, 0.3);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  background: rgba(255, 214, 165, 0.08);
+}
+
+.hall-book-thumb-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hall-book-icon-reading {
+  font-size: 3rem;
+  filter: drop-shadow(0 4px 10px rgba(255, 214, 165, 0.3));
+}
+
+.hall-book-info {
+  display: grid;
+  gap: 6px;
+}
+
+.hall-book-badge {
+  display: inline-block;
+  align-self: flex-start;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 214, 165, 0.4);
+  background: rgba(255, 214, 165, 0.1);
+  color: #ffd6a5;
+  font-weight: 700;
+}
+
+.hall-book-info h4 {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 1.35rem;
+  color: #fff7ff;
+  line-height: 1.15;
+}
+
+.hall-book-info p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.button-download-book {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 20px;
+  border-radius: 16px;
+  font-family: var(--mono);
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-decoration: none;
+  background: linear-gradient(135deg, #ffd6a5, #ffb067);
+  color: #1a0826;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 24px rgba(255, 176, 103, 0.3);
+  transition: all 0.2s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.button-download-book:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(255, 176, 103, 0.5);
+  filter: brightness(1.08);
+}
+
+/* Recompensa final en el stream de recuerdos */
+.reward-grand-finale {
+  margin-top: 36px;
+  padding: clamp(24px, 4vw, 44px);
+  border-radius: 26px;
+  border: 1px solid rgba(255, 214, 165, 0.5);
+  background:
+    radial-gradient(circle at 50% 0%, rgba(255, 214, 165, 0.18), transparent 60%),
+    linear-gradient(160deg, rgba(32, 10, 48, 0.9), rgba(12, 4, 20, 0.95));
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), 0 0 35px rgba(255, 214, 165, 0.15);
+  display: grid;
+  gap: 16px;
+  text-align: center;
+}
+
+.grand-finale-badge {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #ffd6a5;
+  font-weight: 700;
+}
+
+.reward-grand-finale h3 {
+  margin: 0;
+  font-family: var(--display);
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
+  color: #fff7ff;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.reward-grand-finale p {
+  margin: 0 auto;
+  max-width: 640px;
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+.grand-finale-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.button-grand-book {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 24px;
+  border-radius: 18px;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  flex: 1 1 280px;
+  max-width: 360px;
+  text-align: left;
+}
+
+.button-grand-visual {
+  background: linear-gradient(135deg, #ffd6a5, #ffb067);
+  color: #1a0826;
+  box-shadow: 0 10px 28px rgba(255, 176, 103, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.button-grand-visual:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 36px rgba(255, 176, 103, 0.5);
+  filter: brightness(1.06);
+}
+
+.button-grand-reading {
+  background: rgba(255, 214, 165, 0.12);
+  border: 1px solid rgba(255, 214, 165, 0.45);
+  color: #fff7ff;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+}
+
+.button-grand-reading:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 214, 165, 0.22);
+  border-color: rgba(255, 214, 165, 0.7);
+  box-shadow: 0 14px 36px rgba(255, 214, 165, 0.2);
+}
+
+.book-btn-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.book-btn-text {
+  display: grid;
+  gap: 2px;
+}
+
+.book-btn-text strong {
+  font-size: 0.95rem;
+  letter-spacing: -0.01em;
+}
+
+.book-btn-text small {
+  font-size: 0.76rem;
+  opacity: 0.85;
+}
+
+/* Enlaces extra en la tarjeta de inicio de fase */
+.phase-extra-docs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.button-phase-extra {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 12px;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #ffd6a5;
+  background: rgba(255, 214, 165, 0.08);
+  border: 1px solid rgba(255, 214, 165, 0.3);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.button-phase-extra:hover {
+  background: rgba(255, 214, 165, 0.18);
+  border-color: rgba(255, 214, 165, 0.6);
+  transform: translateY(-1px);
+}
+
+/* Enlaces de lectura y visual en fila de recompensa resuelta */
+.reward-phase-docs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.button-phase-reward-doc {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 12px;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #ffd6a5;
+  background: rgba(255, 214, 165, 0.08);
+  border: 1px solid rgba(255, 214, 165, 0.3);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.button-phase-reward-doc:hover {
+  background: rgba(255, 214, 165, 0.18);
+  border-color: rgba(255, 214, 165, 0.6);
+  transform: translateY(-1px);
+}
+
+
